@@ -1,0 +1,17 @@
+.nav-menu{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    display: flex;
+    margin-right: 15%;
+    li{
+        padding: 5%;
+    }
+    
+}
+.title{
+    margin-left: 15%;
+    font-size: 2rem;
+}
