@@ -1,0 +1,31 @@
+@import '../../styles/config';
+
+.root {
+	width: 65%;
+	align-items: center;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	border: 0.1em solid $grey-bg;
+	border-radius: 0.3em;
+
+	text-align: center;
+	box-shadow: 0.1em 0.1em 0.5em 0.3em $grey-bg;
+	margin-inline: 0.5em;
+}
+
+.images {
+	padding: 0.4em;
+	display: flex;
+	align-items: center;
+}
+.prompt {
+	padding: 20% 10%;
+	width: 100%;
+	color: $grey-font;
+	font-weight: 900;
+	font-size: 1.2em;
+}
+.img {
+	width: 30%;
+}

@@ -1,0 +1,61 @@
+@import '../../styles/config';
+
+.root {
+	width: 70%;
+	box-shadow: 0.1em 0.1em 0.5em 0.3em $grey-bg;
+	border-radius: 0.3em;
+	border: 0.1em solid $grey-bg;
+	padding: 0.5em 1em;
+}
+
+.half {
+	width: 47%;
+}
+
+.formRow {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.2em 0.5em;
+}
+
+.label {
+	color: $grey-font;
+	display: block;
+	font-size: 0.9em;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	border: none;
+	padding: 0.2em;
+	border-bottom: 0.1em solid $black;
+}
+
+.iconMini {
+	width: 0.8em;
+	height: 0.8em;
+	svg {
+		fill: $grey-font;
+		width: 0.8em;
+		height: 0.8em;
+	}
+}
+
+.footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.btn {
+	background-color: black;
+	color: white;
+	padding: 0.3em 0.6em;
+	border: none;
+	border-radius: 0.3em;
+	margin: 0 0.3em;
+}

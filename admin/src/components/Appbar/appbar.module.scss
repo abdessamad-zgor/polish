@@ -1,0 +1,25 @@
+@import '../../styles/config';
+
+.root {
+	width: 100%;
+	padding-inline: 2em;
+	padding-block: 1em;
+	position: relative;
+}
+.logo {
+	width: 30%;
+	display: block;
+	padding-bottom: 1em;
+}
+
+.title {
+	color: $primary-color;
+	font-size: 2em;
+	display: inline-block;
+}
+
+.small {
+	font-size: 0.6em;
+	font-weight: 300;
+	display: inline-block;
+}

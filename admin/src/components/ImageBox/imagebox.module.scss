@@ -1,0 +1,32 @@
+@import '../../styles/config';
+
+.root {
+	width: 23vw;
+	border-radius: 0.2em;
+	margin: 0.3em;
+	position: relative;
+	&:hover {
+		.actionsHover {
+			display: block;
+			background-color: rgba(128, 128, 128, 0.493);
+		}
+	}
+}
+
+.imgSrc {
+	width: 100%;
+}
+
+.actionsHover {
+	position: absolute;
+	inset: 0;
+	display: none;
+}
+.icon {
+	width: 1.8em;
+	height: 1.8em;
+	svg {
+		fill: $grey-font;
+		width: 100%;
+	}
+}

@@ -1,0 +1,15 @@
+@import './config';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $dfl-font;
+}
+
+.svg-icon {
+	width: 100%;
+}

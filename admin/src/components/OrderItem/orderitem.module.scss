@@ -1,0 +1,38 @@
+.orderItem {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+}
+.orderItemDate {
+	width: 30%;
+}
+
+.orderItemContent {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0.5em;
+	padding-top: 1.5em;
+	width: 70%;
+	border: 0.1em solid $border-colored;
+	border-radius: 0.5em;
+	max-height: 30vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	@media (max-width: $breakpoint-mb) {
+		max-height: 40vh;
+	}
+	.cartitem {
+		margin: 0.2em;
+	}
+}
+
+.orderItemFooter {
+	display: block;
+	justify-self: flex-end;
+	h3 {
+		display: block;
+		float: left;
+	}
+}

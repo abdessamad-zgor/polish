@@ -1,0 +1,39 @@
+@import '../../styles/config';
+
+.root {
+	width: 60%;
+	margin: auto;
+}
+
+.formRow {
+	width: 100%;
+	display: block;
+}
+
+.label {
+	display: block;
+	color: $grey-font;
+}
+.input {
+	display: block;
+	width: 100%;
+	border: none;
+	border-bottom: 0.1em solid $black;
+}
+.actions {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	padding: 0.5em 0;
+	justify-content: center;
+}
+
+.submitBtn {
+	padding: 0.4em 1em;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: white;
+	background-color: $black;
+	font-family: $dfl-font;
+	border: none;
+}

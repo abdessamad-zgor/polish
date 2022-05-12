@@ -1,0 +1,52 @@
+@import '../../styles/config';
+
+.root {
+	width: 100%;
+	position: relative;
+}
+
+.entry {
+	display: block;
+	width: 100%;
+	padding-left: 1.5em;
+	text-align: left;
+	* {
+		display: inline-block;
+	}
+	p {
+		padding-left: 1em;
+	}
+}
+
+.fieldActions {
+	float: right;
+	opacity: 0;
+	transition: 0.1s all;
+	display: flex;
+	align-items: center;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.icon {
+	width: 1.8em;
+	height: 1.8em;
+	svg {
+		fill: $grey-font;
+		width: 100%;
+	}
+}
+
+.entryKey {
+	display: block;
+}
+
+.values {
+	display: block;
+}
+
+.objectValue {
+	display: block;
+	padding-left: 1.5em;
+}

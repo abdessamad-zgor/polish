@@ -1,0 +1,35 @@
+@import '../../styles/config';
+
+.root {
+	border: 0.1em solid $grey-bg;
+	box-shadow: 0.1em 0.1em 0.5em 0.3em $grey-bg;
+	width: 30%;
+	border-radius: 0.3em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 0.5em;
+	margin-inline: 0.5em;
+	padding-bottom: 0;
+
+	height: 70vh;
+	overflow: auto;
+}
+
+.productDiv {
+	box-shadow: 0.1em 0.1em 0.2em 0.1em $grey-bg;
+	border-radius: 0.3em;
+	margin-bottom: 0.5em;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	img {
+		width: 30%;
+		border-radius: 0.3em;
+	}
+	h5 {
+		color: $grey-font;
+		font-weight: 100;
+	}
+}
